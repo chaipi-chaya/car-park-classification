@@ -1,5 +1,6 @@
 # car-park-classification
 The CNN for classifying car in the parking lot using data set from this website http://cnrpark.it/.<br/>
 I created only one file with MobileNet using tensorflow.<br/>
-Unfortunately, my laptop took long time to run, so I will try to implement this on AWS cloud server.<br/>
-Stay tune for further work. Thanks.
+Ran on AWS got a model with accuracy 70%, with parameter around 4M. <br/>
+If I have time I will find a way to increase the performance, may be other models or something else.<br/>
+Then I will create restful api for the prediction model with flask.
